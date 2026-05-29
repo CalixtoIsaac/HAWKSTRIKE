@@ -102,18 +102,19 @@ h1, h2, h3, .slogan {
     padding: 0 5%;
 }
 
-.hero-content h1 { font-size: 4rem; letter-spacing: 3px; margin: 10px 0; }
-.slogan { color: var(--accent-green); font-size: 2rem; font-weight: 700; }
-.subtitle { font-size: 1.1rem; color: #ccc; margin-bottom: 40px; }
+.hero-content h1 { font-size: 5.5rem; letter-spacing: 4px; margin: 15px 0; line-height: 1; }
+.slogan { color: var(--accent-green); font-size: 3rem; font-weight: 700; }
+.subtitle { font-size: 1.6rem; color: #ccc; margin-bottom: 40px; }
 
 .mision-vision { display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; }
 .mv-card {
     background: rgba(37, 89, 80, 0.2);
     border-left: 4px solid var(--primary-green);
-    padding: 20px;
-    max-width: 400px;
-    text-align: left;
+    padding: 25px;
+    max-width: 420px;
+    text-align: justify;
     backdrop-filter: blur(5px);
+    border-radius: 10px;
 }
 .mv-card h3 { font-size: 1.5rem; color: var(--primary-green); margin-bottom: 10px; }
 
